@@ -26,7 +26,7 @@ def is_prime(num):
         return False
         
 
-for i in range(1, 500 + 1):
+for i in range(1, 1000000 + 1):
     if i % 10 == 0:
         tenth_numbers.append(i)
     if i % 3 == 0:
